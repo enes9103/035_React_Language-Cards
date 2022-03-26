@@ -1,0 +1,39 @@
+.cards-area-container {
+    height: 41rem;
+    width: 25rem;
+    background-color: #f48b29;
+    margin: 0 auto;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: "top" "bottom";
+    overflow: hidden;
+
+     }
+
+ .bars {
+     height: 41rem;
+     width: 5rem;
+     background-color: #53c1de;
+     position: relative;
+     transform: rotate(-45deg);
+     top: -40rem;
+     left: 10rem;
+
+ }
+
+ .language-title {
+     grid-area: top;
+     text-align: center;
+     color: white;
+     font-weight: bold;
+     font-size: 2rem;
+     margin-top:1rem;
+ }
+
+ .cards-container {
+     grid-area: bottom;
+     padding: 1rem;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+ }
